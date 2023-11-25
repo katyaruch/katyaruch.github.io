@@ -1,0 +1,98 @@
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  
+  height: 66px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  color: #000;
+  border: 2px solid #000;
+  z-index: 1;
+
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all .5s cubic-bezier(.19,1,.22,1);
+    background: #000;
+  }
+
+  &:hover {
+    color: #fff;
+
+    &:after {
+      width: 100%;
+    }    
+  
+    .icon-left {
+      fill: #fff;
+    }
+    .icon-arrow {
+      transform: translateX(10px);
+    }
+  }
+
+  &--white {
+    color: #fff;
+    border: 2px solid #fff;
+  
+    &:after {
+      background: #fff;
+    }
+  
+    &:hover {
+      color: #000;
+
+      .icon-left {
+        fill: #000;
+      }
+    }
+
+    .icon-left {
+      fill: #fff;
+    }
+  }
+}
+
+.button .icon-arrow {
+  margin-left: auto;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.button--accent {
+  min-width: 300px;
+  color: var(--color-accent-1);
+  -webkit-text-fill-color: var(--color-accent-1);
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-image: var(--gradient);
+  border-image-slice: 1;
+}
+
+.button--accent:after {
+  background: var(--gradient);
+}
+.button--accent:hover {
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+}
+
+@supports (-webkit-background-clip:text) or (background-clip:text) {
+  .button--accent {
+    background-image: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}

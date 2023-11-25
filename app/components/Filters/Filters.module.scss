@@ -1,0 +1,26 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn {
+  padding: 20px;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  border: none;
+
+  cursor: pointer;
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .btn {
+    padding: 15px;
+  }
+}

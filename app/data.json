@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "title": "Device",
+    "description": "Вёрстка для интернет-магазина электроники",
+    "image": "device.jpg",
+    "site": "https://katyaruch.github.io/pages/device",
+    "github": "https://github.com/katyaruch/129954-device",
+    "category": "Интернет-магазин"
+  },
+  {
+    "id": 2,
+    "title": "Сравни билеты",
+    "description": "Вёрстка для сервиса по поиску билетов",
+    "image": "sravni-bilety.jpg",
+    "site": "https://katyaruch.github.io/pages/sravni-bilety/",
+    "category": "Многостраничный сайт"
+  },
+  {
+    "id": 3,
+    "title": "Урса Моторс",
+    "description": "Лендинг по продаже вездеходов",
+    "image": "ursa.jpg",
+    "site": "http://ursamotors.ru/",
+    "category": "Лендинг"
+  },
+  {
+    "id": 4,
+    "title": "Advanced Technology",
+    "description": "Вёрстка для интернет-магазина электроники",
+    "image": "advanced-tech.jpg",
+    "site": "https://www.advanced-tech.ru/",
+    "github": "https://github.com/katyaruch/advanced-tech",
+    "category": "Интернет-магазин"
+  },
+  {
+    "id": 5,
+    "title": "Fastko",
+    "description": "Многостраничный сайт | Wordpress",
+    "image": "fastko.jpg",
+    "site": "https://fastko.ru/",
+    "category": "Многостраничный сайт"
+  },
+  {
+    "id": 6,
+    "title": "Tapiera",
+    "description": "Сайт чайной в СПб | Tilda",
+    "image": "tapiera.jpg",
+    "site": "https://tapiera.com/",
+    "category": "Многостраничный сайт"
+  },
+  {
+    "id": 7,
+    "title": "Taskmanager",
+    "description": "Персональный менеджер задач",
+    "image": "taskmanager.jpg",
+    "site": "https://katyaruch.github.io/pages/taskmanager/",
+    "category": "Приложение"
+  },
+  {
+    "id": 8,
+    "title": "Mavic",
+    "description": "Лендинг с анимацией",
+    "image": "mavic.jpg",
+    "site": "https://katyaruch.github.io/mavic/app/",
+    "github": "https://github.com/katyaruch/mavic",
+    "category": "Лендинг"
+  },
+  {
+    "id": 9,
+    "title": "O-Zone",
+    "description": "Каталог товаров и корзина на чистом JS",
+    "image": "o-zone.jpg",
+    "site": "https://katyaruch.github.io/ozon-js/dist/",
+    "github": "https://github.com/katyaruch/ozon-js",
+    "category": "Интернет-магазин"
+  },
+  {
+    "id": 10,
+    "title": "Midas",
+    "description": "Вёрстка лендинга",
+    "image": "midas.jpg",
+    "site": "https://katyaruch.github.io/midas/dist/",
+    "github": "https://github.com/katyaruch/midas",
+    "category": "Лендинг"
+  },
+  {
+    "id": 11,
+    "title": "eCommerce Component",
+    "description": "Cписок товаров и корзина на React",
+    "image": "cart-react.jpg",
+    "site": "https://katyaruch.github.io/eCommerceComponent/build/",
+    "github": "https://github.com/katyaruch/eCommerceComponent",
+    "category": "Приложение"
+  }
+]

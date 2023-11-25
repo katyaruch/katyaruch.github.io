@@ -1,0 +1,38 @@
+.field-copy {
+  position: relative;
+  display: inline-block;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  width: 100%;
+  padding: 20px;
+  padding-right: 45px;
+
+  font-size: 1em;
+  color: inherit;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.5s;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+  margin: auto 0;
+  margin-right: 10px;
+  transition: 0.5s;
+  pointer-events: none;
+}
